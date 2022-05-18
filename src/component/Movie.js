@@ -17,7 +17,7 @@ const Movie = (genres) => {
         // console.log(res.data)
     }
     const fetchRecommendedMovies = async () => {
-      fetch(`/movie/${params.name}`).then(res => res.json()).then(data => setRecommendedMovies(data.recommended_movie)).catch(err => console.log(err))
+      fetch(`https://movierecommenderapi.herokuapp.com/movie/${params.name}`).then(res => res.json()).then(data => setRecommendedMovies(data.recommended_movie)).catch(err => console.log(err))
       
     }
     useEffect(() => {
