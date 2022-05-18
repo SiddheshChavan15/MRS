@@ -49,9 +49,7 @@ const Search = () => {
     loop: true,
   }}
           onInit={(typewriter) => {
-            typewriter.typeString('MOVIES RECOMMENDATION SYSTEM (MRS)')
-            .pauseFor(2500)
-            .deleteAll()
+            typewriter
             .typeString('MOVIES ON THE GO!')
             .pauseFor(2500)
             .deleteAll()       
