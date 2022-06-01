@@ -1,5 +1,5 @@
 ### Demo of site 
-Site is deployed on netlify: https://regal-sorbet-12b3f3.netlify.app/
+Site is deployed on netlify: (https://moviesonthego.netlify.app/)
 
 # Getting Started with Create React App
 
